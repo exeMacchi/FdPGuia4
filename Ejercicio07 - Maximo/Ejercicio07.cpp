@@ -1,5 +1,5 @@
-// 7. Hacer un programa que solicite 10 nÃºmeros y luego mostrar por pantalla el mÃ¡ximo de ellos y la 
-//    posiciÃ³n en la que fue ingresado.
+// 7. Hacer un programa que solicite 10 números y luego mostrar por pantalla el máximo de ellos y la 
+//    posición en la que fue ingresado.
 
 #include <iostream>
 
@@ -11,14 +11,17 @@ int main()
 {
     int N, Max, PMax;
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++)
+    {
         cout << i + 1 << ". Ingrese un numero: ";
         cin >> N;
-        if (i == 0) {
+        if (i == 0)
+        {
             Max = N;
             PMax = i + 1;
         }
-        else if (N > Max) {
+        else if (N > Max)
+        {
             Max = N;
             PMax = i + 1;
         }

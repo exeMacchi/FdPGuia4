@@ -1,4 +1,4 @@
-// 3. Hacer un programa para mostrar los nÃºmeros del 1 al 10. No se debe realizar ningÃºn pedido de datos.
+// 3. Hacer un programa para mostrar los números del 1 al 10. No se debe realizar ningún pedido de datos.
 
 #include <iostream>
 
@@ -7,11 +7,14 @@ using std::endl;
 
 int main()
 {
-    for (int i = 0; i < 10; i++) {
-        if (i < 9) {
+    for (int i = 0; i < 10; i++)
+    {
+        if (i < 9)
+        {
             cout << i + 1 << ", ";
         }
-        else {
+        else
+        {
             cout << i + 1 << "." << endl;
         }
     }

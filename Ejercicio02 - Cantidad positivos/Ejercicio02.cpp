@@ -1,4 +1,4 @@
-// 2. Hacer un programa que solicite 20 nÃºmeros y calcule y emita por pantalla cuÃ¡ntos son positivos (mayores a cero). 
+// 2. Hacer un programa que solicite 20 números y calcule y emita por pantalla cuántos son positivos (mayores a cero). 
 //    Se debe mostrar un solo valor: el conteo final.
 
 #include <iostream>
@@ -11,10 +11,12 @@ int main()
 {
     int N, Con = 0;
 
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 20; i++)
+    {
         cout << "Ingrese un numero: ";
         cin >> N;
-        if (N > 0) {
+        if (N > 0)
+        {
             Con++;
         }
     }
@@ -22,4 +24,3 @@ int main()
     cout << "\nCantidad de numeros positivos: " << Con << endl;
     return 0;
 }
-

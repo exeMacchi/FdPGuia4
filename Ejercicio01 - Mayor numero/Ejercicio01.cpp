@@ -1,4 +1,4 @@
-// 1. Hacer un programa que solicite el ingreso de 10 nÃºmeros y que muestre el mayor de ellos por pantalla. 
+// 1. Hacer un programa que solicite el ingreso de 10 números y que muestre el mayor de ellos por pantalla. 
 //    Solo se debe emitir UN valor por pantalla.
 
 #include <iostream>
@@ -11,13 +11,16 @@ int main()
 {
     int N, Max;
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++)
+    {
         cout << "Ingrese un numero: ";
         cin >> N;
-        if (i == 0) {
+        if (i == 0)
+        {
             Max = N;
         }
-        else if (N > Max) {
+        else if (N > Max)
+        {
             Max = N;
         }
     }
